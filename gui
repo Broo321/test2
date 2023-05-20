@@ -1,0 +1,712 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local PCDGUI = Instance.new("ScreenGui")
+local Menu = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local NameGui = Instance.new("TextLabel")
+local CloseButton = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local panel2 = Instance.new("Frame")
+local Menu1 = Instance.new("ScrollingFrame")
+local UICorner_3 = Instance.new("UICorner")
+local darlowo = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local Karwice = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local UIGradient_2 = Instance.new("UIGradient")
+local Menu2b = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local UIGradient_3 = Instance.new("UIGradient")
+local Rusko = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local UIGradient_4 = Instance.new("UIGradient")
+local Bobrowiczki = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local UIGradient_5 = Instance.new("UIGradient")
+local Malechowo = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local UIGradient_6 = Instance.new("UIGradient")
+local Slawno = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local UIGradient_7 = Instance.new("UIGradient")
+local Seczkowo = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local UIGradient_8 = Instance.new("UIGradient")
+local Smardzewo = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local UIGradient_9 = Instance.new("UIGradient")
+local Bobrowice = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local UIGradient_10 = Instance.new("UIGradient")
+local Paczka = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local UIGradient_11 = Instance.new("UIGradient")
+local Menu2 = Instance.new("ScrollingFrame")
+local UICorner_15 = Instance.new("UICorner")
+local Menu1b = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local UIGradient_12 = Instance.new("UIGradient")
+local TpTool = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local UIGradient_13 = Instance.new("UIGradient")
+local OpenMenu = Instance.new("Frame")
+local UICorner_18 = Instance.new("UICorner")
+local OpenButton = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+
+--Properties:
+
+PCDGUI.Name = "PCDGUI"
+PCDGUI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+PCDGUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Menu.Name = "Menu"
+Menu.Parent = PCDGUI
+Menu.BackgroundColor3 = Color3.fromRGB(185, 255, 253)
+Menu.Position = UDim2.new(-0.349999994, 0, 0.337000012, 0)
+Menu.Size = UDim2.new(0, 365, 0, 227)
+
+UICorner.CornerRadius = UDim.new(0, 18)
+UICorner.Parent = Menu
+
+NameGui.Name = "NameGui"
+NameGui.Parent = Menu
+NameGui.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NameGui.BackgroundTransparency = 1.000
+NameGui.Position = UDim2.new(0.0301369876, 0, 0, 0)
+NameGui.Size = UDim2.new(0, 290, 0, 58)
+NameGui.Font = Enum.Font.SourceSans
+NameGui.Text = "Polish Car Driving Teleports"
+NameGui.TextColor3 = Color3.fromRGB(0, 0, 0)
+NameGui.TextScaled = true
+NameGui.TextSize = 14.000
+NameGui.TextWrapped = true
+
+CloseButton.Name = "CloseButton"
+CloseButton.Parent = Menu
+CloseButton.BackgroundColor3 = Color3.fromRGB(255, 94, 94)
+CloseButton.Position = UDim2.new(0.855000019, 0, 0.0240000002, 0)
+CloseButton.Size = UDim2.new(0, 47, 0, 38)
+CloseButton.Font = Enum.Font.SourceSans
+CloseButton.Text = "X"
+CloseButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+CloseButton.TextScaled = true
+CloseButton.TextSize = 14.000
+CloseButton.TextWrapped = true
+
+UICorner_2.CornerRadius = UDim.new(0, 18)
+UICorner_2.Parent = CloseButton
+
+panel2.Name = "panel2"
+panel2.Parent = Menu
+panel2.BackgroundColor3 = Color3.fromRGB(131, 182, 178)
+panel2.Position = UDim2.new(0, 0, 0.221000001, 0)
+panel2.Size = UDim2.new(0, 365, 0, 2)
+
+Menu1.Name = "Menu1"
+Menu1.Parent = Menu
+Menu1.Active = true
+Menu1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Menu1.BackgroundTransparency = 1.000
+Menu1.Position = UDim2.new(0, 0, 0.24229075, 0)
+Menu1.Size = UDim2.new(0, 364, 0, 171)
+Menu1.CanvasSize = UDim2.new(0, 0, 1, 0)
+Menu1.ScrollBarThickness = 10
+
+UICorner_3.CornerRadius = UDim.new(0, 18)
+UICorner_3.Parent = Menu1
+
+darlowo.Name = "darlowo"
+darlowo.Parent = Menu1
+darlowo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+darlowo.Position = UDim2.new(0.695845187, 0, 0.60669297, 0)
+darlowo.Size = UDim2.new(0, 94, 0, 39)
+darlowo.Font = Enum.Font.SourceSans
+darlowo.Text = "Darłowo"
+darlowo.TextColor3 = Color3.fromRGB(0, 0, 0)
+darlowo.TextSize = 30.000
+darlowo.TextWrapped = true
+
+UICorner_4.CornerRadius = UDim.new(0, 18)
+UICorner_4.Parent = darlowo
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(69, 255, 249)), ColorSequenceKeypoint.new(0.41, Color3.fromRGB(156, 254, 254)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 254, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 255, 247))}
+UIGradient.Parent = darlowo
+
+Karwice.Name = "Karwice"
+Karwice.Parent = Menu1
+Karwice.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Karwice.Position = UDim2.new(0.673867226, 0, 0.0110132061, 0)
+Karwice.Size = UDim2.new(0, 98, 0, 39)
+Karwice.Font = Enum.Font.SourceSans
+Karwice.Text = "Karwice"
+Karwice.TextColor3 = Color3.fromRGB(0, 0, 0)
+Karwice.TextSize = 30.000
+Karwice.TextWrapped = true
+
+UICorner_5.CornerRadius = UDim.new(0, 18)
+UICorner_5.Parent = Karwice
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(69, 255, 249)), ColorSequenceKeypoint.new(0.41, Color3.fromRGB(156, 254, 254)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 254, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 255, 247))}
+UIGradient_2.Parent = Karwice
+
+Menu2b.Name = "Menu2b"
+Menu2b.Parent = Menu1
+Menu2b.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Menu2b.Position = UDim2.new(0.334216475, 0, 0.00660791993, 0)
+Menu2b.Size = UDim2.new(0, 114, 0, 39)
+Menu2b.Font = Enum.Font.SourceSans
+Menu2b.Text = "Menu2"
+Menu2b.TextColor3 = Color3.fromRGB(0, 0, 0)
+Menu2b.TextSize = 30.000
+Menu2b.TextWrapped = true
+
+UICorner_6.CornerRadius = UDim.new(0, 18)
+UICorner_6.Parent = Menu2b
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(69, 255, 249)), ColorSequenceKeypoint.new(0.41, Color3.fromRGB(156, 254, 254)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 254, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 255, 247))}
+UIGradient_3.Parent = Menu2b
+
+Rusko.Name = "Rusko"
+Rusko.Parent = Menu1
+Rusko.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Rusko.Position = UDim2.new(0.0466205031, 0, 0.00660791993, 0)
+Rusko.Size = UDim2.new(0, 98, 0, 39)
+Rusko.Font = Enum.Font.SourceSans
+Rusko.Text = "Rusko"
+Rusko.TextColor3 = Color3.fromRGB(0, 0, 0)
+Rusko.TextSize = 30.000
+Rusko.TextWrapped = true
+
+UICorner_7.CornerRadius = UDim.new(0, 18)
+UICorner_7.Parent = Rusko
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(69, 255, 249)), ColorSequenceKeypoint.new(0.41, Color3.fromRGB(156, 254, 254)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 254, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 255, 247))}
+UIGradient_4.Parent = Rusko
+
+Bobrowiczki.Name = "Bobrowiczki"
+Bobrowiczki.Parent = Menu1
+Bobrowiczki.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Bobrowiczki.Position = UDim2.new(0.049397897, 0, 0.404796869, 0)
+Bobrowiczki.Size = UDim2.new(0, 158, 0, 39)
+Bobrowiczki.Font = Enum.Font.SourceSans
+Bobrowiczki.Text = "Bobrowiczki"
+Bobrowiczki.TextColor3 = Color3.fromRGB(0, 0, 0)
+Bobrowiczki.TextSize = 30.000
+Bobrowiczki.TextWrapped = true
+
+UICorner_8.CornerRadius = UDim.new(0, 18)
+UICorner_8.Parent = Bobrowiczki
+
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(69, 255, 249)), ColorSequenceKeypoint.new(0.41, Color3.fromRGB(156, 254, 254)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 254, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 255, 247))}
+UIGradient_5.Parent = Bobrowiczki
+
+Malechowo.Name = "Malechowo"
+Malechowo.Parent = Menu1
+Malechowo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Malechowo.Position = UDim2.new(0.514699638, 0, 0.79050988, 0)
+Malechowo.Size = UDim2.new(0, 160, 0, 39)
+Malechowo.Font = Enum.Font.SourceSans
+Malechowo.Text = "Malechowo"
+Malechowo.TextColor3 = Color3.fromRGB(0, 0, 0)
+Malechowo.TextSize = 30.000
+Malechowo.TextWrapped = true
+
+UICorner_9.CornerRadius = UDim.new(0, 18)
+UICorner_9.Parent = Malechowo
+
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(69, 255, 249)), ColorSequenceKeypoint.new(0.41, Color3.fromRGB(156, 254, 254)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 254, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 255, 247))}
+UIGradient_6.Parent = Malechowo
+
+Slawno.Name = "Slawno"
+Slawno.Parent = Menu1
+Slawno.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slawno.Position = UDim2.new(0.413743794, 0, 0.610132158, 0)
+Slawno.Size = UDim2.new(0, 85, 0, 39)
+Slawno.Font = Enum.Font.SourceSans
+Slawno.Text = "Slawno"
+Slawno.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slawno.TextSize = 30.000
+Slawno.TextWrapped = true
+
+UICorner_10.CornerRadius = UDim.new(0, 18)
+UICorner_10.Parent = Slawno
+
+UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(69, 255, 249)), ColorSequenceKeypoint.new(0.41, Color3.fromRGB(156, 254, 254)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 254, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 255, 247))}
+UIGradient_7.Parent = Slawno
+
+Seczkowo.Name = "Seczkowo"
+Seczkowo.Parent = Menu1
+Seczkowo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Seczkowo.Position = UDim2.new(0.526396275, 0, 0.404796869, 0)
+Seczkowo.Size = UDim2.new(0, 150, 0, 39)
+Seczkowo.Font = Enum.Font.SourceSans
+Seczkowo.Text = "Seczkowo"
+Seczkowo.TextColor3 = Color3.fromRGB(0, 0, 0)
+Seczkowo.TextSize = 30.000
+Seczkowo.TextWrapped = true
+
+UICorner_11.CornerRadius = UDim.new(0, 18)
+UICorner_11.Parent = Seczkowo
+
+UIGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(69, 255, 249)), ColorSequenceKeypoint.new(0.41, Color3.fromRGB(156, 254, 254)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 254, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 255, 247))}
+UIGradient_8.Parent = Seczkowo
+
+Smardzewo.Name = "Smardzewo"
+Smardzewo.Parent = Menu1
+Smardzewo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Smardzewo.Position = UDim2.new(0.0466204621, 0, 0.788378775, 0)
+Smardzewo.Size = UDim2.new(0, 160, 0, 39)
+Smardzewo.Font = Enum.Font.SourceSans
+Smardzewo.Text = "Smardzewo"
+Smardzewo.TextColor3 = Color3.fromRGB(0, 0, 0)
+Smardzewo.TextSize = 30.000
+Smardzewo.TextWrapped = true
+
+UICorner_12.CornerRadius = UDim.new(0, 18)
+UICorner_12.Parent = Smardzewo
+
+UIGradient_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(69, 255, 249)), ColorSequenceKeypoint.new(0.41, Color3.fromRGB(156, 254, 254)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 254, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 255, 247))}
+UIGradient_9.Parent = Smardzewo
+
+Bobrowice.Name = "Bobrowice"
+Bobrowice.Parent = Menu1
+Bobrowice.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Bobrowice.Position = UDim2.new(0.0449193381, 0, 0.612824321, 0)
+Bobrowice.Size = UDim2.new(0, 120, 0, 39)
+Bobrowice.Font = Enum.Font.SourceSans
+Bobrowice.Text = "Bobrowice"
+Bobrowice.TextColor3 = Color3.fromRGB(0, 0, 0)
+Bobrowice.TextSize = 30.000
+Bobrowice.TextWrapped = true
+
+UICorner_13.CornerRadius = UDim.new(0, 18)
+UICorner_13.Parent = Bobrowice
+
+UIGradient_10.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(69, 255, 249)), ColorSequenceKeypoint.new(0.41, Color3.fromRGB(156, 254, 254)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 254, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 255, 247))}
+UIGradient_10.Parent = Bobrowice
+
+Paczka.Name = "Paczka"
+Paczka.Parent = Menu1
+Paczka.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Paczka.Position = UDim2.new(0.0540000014, 0, 0.215000004, 0)
+Paczka.Size = UDim2.new(0, 95, 0, 38)
+Paczka.Font = Enum.Font.SourceSans
+Paczka.Text = "Paczka"
+Paczka.TextColor3 = Color3.fromRGB(0, 0, 0)
+Paczka.TextSize = 30.000
+Paczka.TextWrapped = true
+
+UICorner_14.CornerRadius = UDim.new(0, 18)
+UICorner_14.Parent = Paczka
+
+UIGradient_11.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(69, 255, 249)), ColorSequenceKeypoint.new(0.41, Color3.fromRGB(156, 254, 254)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 254, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 255, 247))}
+UIGradient_11.Parent = Paczka
+
+Menu2.Name = "Menu2"
+Menu2.Parent = Menu
+Menu2.Active = true
+Menu2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Menu2.BackgroundTransparency = 1.000
+Menu2.Position = UDim2.new(0, 0, 0.24229075, 0)
+Menu2.Size = UDim2.new(0, 364, 0, 171)
+Menu2.Visible = false
+Menu2.CanvasSize = UDim2.new(0, 0, 1, 0)
+Menu2.ScrollBarThickness = 10
+
+UICorner_15.CornerRadius = UDim.new(0, 18)
+UICorner_15.Parent = Menu2
+
+Menu1b.Name = "Menu1b"
+Menu1b.Parent = Menu2
+Menu1b.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Menu1b.Position = UDim2.new(0.0622384213, 0, 0.019407751, 0)
+Menu1b.Size = UDim2.new(0, 98, 0, 39)
+Menu1b.Font = Enum.Font.SourceSans
+Menu1b.Text = "Menu1"
+Menu1b.TextColor3 = Color3.fromRGB(0, 0, 0)
+Menu1b.TextSize = 30.000
+Menu1b.TextWrapped = true
+
+UICorner_16.CornerRadius = UDim.new(0, 18)
+UICorner_16.Parent = Menu1b
+
+UIGradient_12.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(69, 255, 249)), ColorSequenceKeypoint.new(0.41, Color3.fromRGB(156, 254, 254)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 254, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 255, 247))}
+UIGradient_12.Parent = Menu1b
+
+TpTool.Name = "TpTool"
+TpTool.Parent = Menu2
+TpTool.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TpTool.Position = UDim2.new(0.0603567287, 0, 0.243509531, 0)
+TpTool.Size = UDim2.new(0, 138, 0, 39)
+TpTool.Font = Enum.Font.SourceSans
+TpTool.Text = "Ctrl Click TP"
+TpTool.TextColor3 = Color3.fromRGB(0, 0, 0)
+TpTool.TextSize = 30.000
+TpTool.TextWrapped = true
+
+UICorner_17.CornerRadius = UDim.new(0, 18)
+UICorner_17.Parent = TpTool
+
+UIGradient_13.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(69, 255, 249)), ColorSequenceKeypoint.new(0.41, Color3.fromRGB(156, 254, 254)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(170, 254, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 255, 247))}
+UIGradient_13.Parent = TpTool
+
+OpenMenu.Name = "OpenMenu"
+OpenMenu.Parent = PCDGUI
+OpenMenu.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OpenMenu.Position = UDim2.new(0.00923295226, 0, 0.660944223, 0)
+OpenMenu.Size = UDim2.new(0, 104, 0, 38)
+
+UICorner_18.CornerRadius = UDim.new(0, 18)
+UICorner_18.Parent = OpenMenu
+
+OpenButton.Name = "OpenButton"
+OpenButton.Parent = OpenMenu
+OpenButton.BackgroundColor3 = Color3.fromRGB(170, 255, 255)
+OpenButton.Size = UDim2.new(0, 104, 0, 38)
+OpenButton.Font = Enum.Font.SourceSans
+OpenButton.Text = "Otwórz"
+OpenButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+OpenButton.TextScaled = true
+OpenButton.TextSize = 14.000
+OpenButton.TextWrapped = true
+
+UICorner_19.CornerRadius = UDim.new(0, 18)
+UICorner_19.Parent = OpenButton
+
+-- Scripts:
+
+local function ALPSWNO_fake_script() -- PCDGUI.Manager 
+	local script = Instance.new('LocalScript', PCDGUI)
+
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent.Menu
+	local dragToggle = nil
+	local dragSpeed = 0.25
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+	
+	local openb = script.Parent.OpenMenu.OpenButton
+	local closeb = script.Parent.Menu.CloseButton
+	
+	openb.MouseButton1Click:Connect(function()
+		frame.Visible = true
+		frame:TweenPosition(UDim2.new(0.37, 0,0.337, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Linear, .3, false)
+	end)
+	
+	closeb.MouseButton1Click:Connect(function()
+		frame:TweenPosition(UDim2.new(-0.350, 0,0.337, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Linear, .3, false)
+		wait(0.5)
+		frame.Visible = false
+	end)
+	
+	local menu2b = script.Parent.Menu.Menu1.Menu2b
+	local menu1b = script.Parent.Menu.Menu2.Menu1b
+	local menu2 = script.Parent.Menu.Menu2
+	local menu1 = script.Parent.Menu.Menu1
+	
+	menu2b.MouseButton1Click:Connect(function()
+		menu1.Visible = false
+		menu2.Visible = true
+	end)
+	
+	menu1b.MouseButton1Click:Connect(function()
+		menu2.Visible = false
+		menu1.Visible = true
+	end)
+	
+	local tptool = script.Parent.Menu.Menu2.TpTool
+	mouse = game.Players.LocalPlayer:GetMouse()
+	tool = Instance.new("Tool")
+	
+	tptool.MouseButton1Click:Connect(function()
+			local speed = 80 -- set this lower to make it slower
+			local bodyvelocityenabled = true -- set this to false if you are getting kicked
+	
+			local Imput = game:GetService("UserInputService")
+			local Plr = game.Players.LocalPlayer
+			local Mouse = Plr:GetMouse()
+	
+			function To(position)
+				local Chr = Plr.Character
+				if Chr ~= nil then
+					local ts = game:GetService("TweenService")
+					local char = game.Players.LocalPlayer.Character
+					local hm = char.HumanoidRootPart
+					local dist = (hm.Position - Mouse.Hit.p).magnitude
+					local tweenspeed = dist/tonumber(speed)
+					local ti = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+					local tp = {CFrame = CFrame.new(position)}
+					ts:Create(hm, ti, tp):Play()
+					if bodyvelocityenabled == true then
+						local bv = Instance.new("BodyVelocity")
+						bv.Parent = hm
+						bv.MaxForce = Vector3.new(100000,100000,100000)
+						bv.Velocity = Vector3.new(0,0,0)
+						wait(tonumber(tweenspeed))
+						bv:Destroy()
+					end
+				end
+			end
+			Imput.InputBegan:Connect(function(input)
+				if input.UserInputType == Enum.UserInputType.MouseButton1 and Imput:IsKeyDown(Enum.KeyCode.LeftControl) then
+					To(Mouse.Hit.p)
+				end
+			end)
+	end)
+	
+	local karwicetp = script.Parent.Menu.Menu1.Karwice
+	local smardzewotp = script.Parent.Menu.Menu1.Smardzewo
+	local malechowotp = script.Parent.Menu.Menu1.Malechowo
+	local seczkowotp = script.Parent.Menu.Menu1.Seczkowo
+	local slawnotp = script.Parent.Menu.Menu1.Slawno
+	local ruskotp = script.Parent.Menu.Menu1.Rusko
+	local darlowotp = script.Parent.Menu.Menu1.darlowo
+	local bobrowiczkitp = script.Parent.Menu.Menu1.Bobrowiczki
+	local bobrowicetp = script.Parent.Menu.Menu1.Bobrowice
+	local paczkatp = script.Parent.Menu.Menu1.Paczka
+	
+	paczkatp.MouseButton1Click:Connect(function()
+		local teleport_table = {
+			location1 = Vector3.new(7543.66113, 113.16597, 11504.0537, -0.390736282, 5.20221022e-08, 0.920502663, 8.511077e-08, 1, -2.03869437e-08, -0.920502663, 7.03787748e-08, -0.390736282), -- Pozycja Teleportu
+		}
+	
+		local tween_s = game:GetService('TweenService')
+		local tweeninfo = TweenInfo.new(1,Enum.EasingStyle.Linear)
+	
+		local lp = game.Players.LocalPlayer
+	
+		function bypass_teleport(v)
+			if lp.Character and 
+				lp.Character:FindFirstChild('HumanoidRootPart') then
+				local cf = CFrame.new(v)
+				local a = tween_s:Create(lp.Character.HumanoidRootPart,tweeninfo,{CFrame=cf})
+				a:Play()
+			end
+		end
+	
+		bypass_teleport(teleport_table.location1)
+	end)
+	karwicetp.MouseButton1Click:Connect(function()
+		local teleport_table = {
+			location1 = Vector3.new(2164.80029, 126.874954, -1074.41711, 0.546502888, -5.38804601e-09, 0.83745724, 2.04328776e-09, 1, 5.10042009e-09, -0.83745724, -1.07622811e-09, 0.546502888), -- Pozycja Teleportu
+		}
+	
+		local tween_s = game:GetService('TweenService')
+		local tweeninfo = TweenInfo.new(1,Enum.EasingStyle.Linear)
+	
+		local lp = game.Players.LocalPlayer
+	
+		function bypass_teleport(v)
+			if lp.Character and 
+				lp.Character:FindFirstChild('HumanoidRootPart') then
+				local cf = CFrame.new(v)
+				local a = tween_s:Create(lp.Character.HumanoidRootPart,tweeninfo,{CFrame=cf})
+				a:Play()
+			end
+		end
+	
+		bypass_teleport(teleport_table.location1)
+	end)
+	smardzewotp.MouseButton1Click:Connect(function()
+		local teleport_table = {
+			location1 = Vector3.new(59.3000755, 126.943031, -6060.31641, 0.758107007, 5.44332899e-08, 0.652130187, -1.89569302e-08, 1, -6.14323739e-08, -0.652130187, 3.42099291e-08, 0.758107007), -- Pozycja Teleportu
+		}
+	
+		local tween_s = game:GetService('TweenService')
+		local tweeninfo = TweenInfo.new(1,Enum.EasingStyle.Linear)
+	
+		local lp = game.Players.LocalPlayer
+	
+		function bypass_teleport(v)
+			if lp.Character and 
+				lp.Character:FindFirstChild('HumanoidRootPart') then
+				local cf = CFrame.new(v)
+				local a = tween_s:Create(lp.Character.HumanoidRootPart,tweeninfo,{CFrame=cf})
+				a:Play()
+			end
+		end
+	
+		bypass_teleport(teleport_table.location1)
+	end)
+	seczkowotp.MouseButton1Click:Connect(function()
+		local teleport_table = {
+			location1 = Vector3.new(2264.88428, 112.149979, 1000.69312, 0.753300786, 8.36198737e-08, -0.65767616, -5.91569176e-08, 1, 5.93862488e-08, 0.65767616, -5.82961146e-09, 0.753300786), -- Pozycja Teleportu
+		}
+	
+		local tween_s = game:GetService('TweenService')
+		local tweeninfo = TweenInfo.new(1,Enum.EasingStyle.Linear)
+	
+		local lp = game.Players.LocalPlayer
+	
+		function bypass_teleport(v)
+			if lp.Character and 
+				lp.Character:FindFirstChild('HumanoidRootPart') then
+				local cf = CFrame.new(v)
+				local a = tween_s:Create(lp.Character.HumanoidRootPart,tweeninfo,{CFrame=cf})
+				a:Play()
+			end
+		end
+	
+		bypass_teleport(teleport_table.location1)
+	end)
+	malechowotp.MouseButton1Click:Connect(function()
+		local teleport_table = {
+			location1 = Vector3.new(5527.52979, 128.05983, -2218.89185, 0.688034654, 1.84316065e-08, 0.725677848, 6.59033148e-08, 1, -8.7883862e-08, -0.725677848, 1.08291722e-07, 0.688034654), -- Pozycja Teleportu
+		}
+	
+		local tween_s = game:GetService('TweenService')
+		local tweeninfo = TweenInfo.new(1,Enum.EasingStyle.Linear)
+	
+		local lp = game.Players.LocalPlayer
+	
+		function bypass_teleport(v)
+			if lp.Character and 
+				lp.Character:FindFirstChild('HumanoidRootPart') then
+				local cf = CFrame.new(v)
+				local a = tween_s:Create(lp.Character.HumanoidRootPart,tweeninfo,{CFrame=cf})
+				a:Play()
+			end
+		end
+	
+		bypass_teleport(teleport_table.location1)
+	end)
+	slawnotp.MouseButton1Click:Connect(function()
+		local teleport_table = {
+			location1 = Vector3.new(-7035.87988, 124.05999, -2044.55823, -0.77584362, 9.89805127e-09, -0.630925238, 9.63127622e-09, 1, 3.84465082e-09, 0.630925238, -3.09376746e-09, -0.77584362), -- Pozycja Teleportu
+		}
+	
+		local tween_s = game:GetService('TweenService')
+		local tweeninfo = TweenInfo.new(1,Enum.EasingStyle.Linear)
+	
+		local lp = game.Players.LocalPlayer
+	
+		function bypass_teleport(v)
+			if lp.Character and 
+				lp.Character:FindFirstChild('HumanoidRootPart') then
+				local cf = CFrame.new(v)
+				local a = tween_s:Create(lp.Character.HumanoidRootPart,tweeninfo,{CFrame=cf})
+				a:Play()
+			end
+		end
+	
+		bypass_teleport(teleport_table.location1)
+	end)
+	darlowotp.MouseButton1Click:Connect(function()
+		local teleport_table = {
+			location1 = Vector3.new(6520.5249, 113.384949, 10794.3145, -0.43875429, -7.53033618e-08, -0.898607075, 1.64940523e-08, 1, -9.18534937e-08, 0.898607075, -5.51227863e-08, -0.43875429), -- Pozycja Teleportu
+		}
+	
+		local tween_s = game:GetService('TweenService')
+		local tweeninfo = TweenInfo.new(1,Enum.EasingStyle.Linear)
+	
+		local lp = game.Players.LocalPlayer
+	
+		function bypass_teleport(v)
+			if lp.Character and 
+				lp.Character:FindFirstChild('HumanoidRootPart') then
+				local cf = CFrame.new(v)
+				local a = tween_s:Create(lp.Character.HumanoidRootPart,tweeninfo,{CFrame=cf})
+				a:Play()
+			end
+		end
+	
+		bypass_teleport(teleport_table.location1)
+	end)
+	bobrowicetp.MouseButton1Click:Connect(function()
+		local teleport_table = {
+			location1 = Vector3.new(-3055.33179, 126.796631, -2562.72876, -0.869484603, -8.3781714e-08, 0.493960023, -1.07796389e-07, 1, -2.01343919e-08, -0.493960023, -7.075365e-08, -0.869484603), -- Pozycja Teleportu
+		}
+	
+		local tween_s = game:GetService('TweenService')
+		local tweeninfo = TweenInfo.new(1,Enum.EasingStyle.Linear)
+	
+		local lp = game.Players.LocalPlayer
+	
+		function bypass_teleport(v)
+			if lp.Character and 
+				lp.Character:FindFirstChild('HumanoidRootPart') then
+				local cf = CFrame.new(v)
+				local a = tween_s:Create(lp.Character.HumanoidRootPart,tweeninfo,{CFrame=cf})
+				a:Play()
+			end
+		end
+	
+		bypass_teleport(teleport_table.location1)
+	end)
+	bobrowiczkitp.MouseButton1Click:Connect(function()
+		local teleport_table = {
+			location1 = Vector3.new(-4232.89502, 128.009903, -2782.72437, -0.94969362, 5.30330047e-09, -0.313180476, -5.0690474e-09, 1, 3.23051523e-08, 0.313180476, 3.2267522e-08, -0.94969362), -- Pozycja Teleportu
+		}
+	
+		local tween_s = game:GetService('TweenService')
+		local tweeninfo = TweenInfo.new(1,Enum.EasingStyle.Linear)
+	
+		local lp = game.Players.LocalPlayer
+	
+		function bypass_teleport(v)
+			if lp.Character and 
+				lp.Character:FindFirstChild('HumanoidRootPart') then
+				local cf = CFrame.new(v)
+				local a = tween_s:Create(lp.Character.HumanoidRootPart,tweeninfo,{CFrame=cf})
+				a:Play()
+			end
+		end
+	
+		bypass_teleport(teleport_table.location1)
+	end)
+	ruskotp.MouseButton1Click:Connect(function()
+		local teleport_table = {
+			location1 = Vector3.new(7200.68555, 112.727417, 9417.27734, 0.619677603, -5.6438882e-08, 0.784856498, 2.92961442e-08, 1, 4.87792597e-08, -0.784856498, -7.23414662e-09, 0.619677603), -- Pozycja Teleportu
+		}
+	
+		local tween_s = game:GetService('TweenService')
+		local tweeninfo = TweenInfo.new(1,Enum.EasingStyle.Linear)
+	
+		local lp = game.Players.LocalPlayer
+	
+		function bypass_teleport(v)
+			if lp.Character and 
+				lp.Character:FindFirstChild('HumanoidRootPart') then
+				local cf = CFrame.new(v)
+				local a = tween_s:Create(lp.Character.HumanoidRootPart,tweeninfo,{CFrame=cf})
+				a:Play()
+			end
+		end
+	
+		bypass_teleport(teleport_table.location1)
+	end)
+end
+coroutine.wrap(ALPSWNO_fake_script)()
